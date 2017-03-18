@@ -1,0 +1,21 @@
+// file name start starts with under scroe '_' indicates it is partial
+// and this file will be loaded directly by scss,
+// instead it will be used with/via other scss file
+
+.top-bar,
+.top-bar ul {
+  background-color: $nav-background;
+}
+
+// The following same as
+// .top-bar .menu-text {}
+.top-bar {
+  .menu-text {
+    color: $nav-text-color;
+  }
+
+  .menu > .menu-text > a {
+    display: inline;
+    padding: 0;
+  }
+}
