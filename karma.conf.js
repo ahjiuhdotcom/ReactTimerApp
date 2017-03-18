@@ -1,4 +1,6 @@
 // This file used to test the app
+// The file name, all the key name or term here are particular
+// Remeber to change 'test' in package.json file to "karma start"
 
 var webpackConfig = require('./webpack.config.js');
 
